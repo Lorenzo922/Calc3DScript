@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calc3DScript</title>
+  <style>
+    body { margin: 0; overflow: hidden; font-family: sans-serif; }
+    #ui { position: absolute; top: 10px; left: 10px; z-index: 10; background: rgba(0,0,0,0.5); padding: 10px; border-radius: 10px; color: white; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <input type="text" id="command" placeholder="Ex: cube(2)" />
+    <button onclick="runCommand()">Executar</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
